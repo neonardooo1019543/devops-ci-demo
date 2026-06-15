@@ -4,8 +4,8 @@ on :
   push: 
   pull_request: 
 
-jobs: 
-  newCI:
+jobs:
+  test:
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
