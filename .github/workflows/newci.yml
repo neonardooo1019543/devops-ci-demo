@@ -6,7 +6,6 @@ on :
 
 jobs: 
   newCI:
-  matrix:
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
